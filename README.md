@@ -153,7 +153,7 @@ If you have found that these programs work with your pumps and are connected to 
      ```
    - If prompted enter “**y**” to proceed with the installation
 3. Reopen *Anaconda Prompt* as administrator
-4. Navigate to the current directory of the pump programs (both new_era3.py and pump_control3.py must be in this folder) with the **cd** command. An example looks like this:
+4. Navigate to the current directory of the pump programs (both harvard3.py and harvard_pump_control3.py must be in this folder) with the **cd** command. An example looks like this:
   ```sh
   cd C:\User\YourUserName\Documents\HarvardPumpProgram3
   ```
