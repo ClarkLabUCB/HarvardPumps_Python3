@@ -88,9 +88,9 @@ The pumps need to be tethered together with ethernet cables which will eventuall
    ```sh
    serial_port = 'COM1'
    ```
-#### Setting Individual Pump Numbers
+#### Setting Individual Pump Addresses
     
-It is common in many applications to tether pumps together; the pumps need to be sequentially assigned a unique address. Details for this process can be found in the Harvard Apparatus Milliliter Flow M.P.C Modular Pump Component User’s Manual, which we have uploaded for your convenience [here](https://github.com/ClarkLabUCB/HarvardPumps_Python3/blob/main/702219%2C%202226%20Milliliter%20Manual.pdf)
+It is common in many applications to tether pumps together; the pumps need to be sequentially assigned a unique address. Details for this process can be found in the Harvard Apparatus Milliliter Flow M.P.C Modular Pump Component User’s Manual which we have uploaded for your convenience [here](https://github.com/ClarkLabUCB/HarvardPumps_Python3/blob/main/702219%2C%202226%20Milliliter%20Manual.pdf). It can be found under Appendix E: Optional – Daisy-Chaining on page 21. 
 
 It is probably most helpful to label to the pumps 0,1,2,3,4... and so on. 
 
