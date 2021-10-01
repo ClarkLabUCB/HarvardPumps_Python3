@@ -100,10 +100,10 @@ An overview of the Pump GUI is shown below.
 
 ![example pump image](/pump_control_gui.png)
 
-For every pump tethered into the system., a line appears with the assigned pump number, a drop down menu to select for a 1 mL, 3 mL, 5 mL, or 10 mL Becton Dickinson syringe, an editable field to name the contents of the pump, an editable field to input a nominal (positive or negative integer) flowrate, its nominal current flow rate, the units of the current flow rate, and a **Prime** button, which will set the flow rate of that pump to 10,000 uL/hour. If the pump has a positive flow rate (out of the syringe), the flow will be shown as positive, if the pump has a negative flow rate (into the syringe), the flow will be shown as negative. At the top of the GUI are the **Run/Update** button and the **Stop** button. **Run/Update** will set the the flow rates of the connected pumps to the user-sepecified flowrates, **Stop** will set the flow rates of all pumps to 0. **IMPORTANT** In order to change the syringe size you need to **Stop** all pumps, then change the syringe size and then press **Run/Update** again. You **CANNOT** simply change the syringe size/units and press **Run/Update**. 
+For every pump tethered into the system., a line appears with the assigned pump number, a drop down menu to select for a 1 mL, 3 mL, 5 mL, 10 mL, 20 mL, or 30 mL Becton Dickinson syringe, an editable field to name the contents of the pump, an editable field to input a nominal (positive or negative integer) flowrate, its nominal current flow rate, the units of the current flow rate, and a **Prime** button, which will set the flow rate of that pump to 10,000 uL/hour. If the pump has a positive flow rate (out of the syringe), the flow will be shown as positive, if the pump has a negative flow rate (into the syringe), the flow will be shown as negative. At the top of the GUI are the **Run/Update** button and the **Stop** button. **Run/Update** will set the the flow rates of the connected pumps to the user-sepecified flowrates, **Stop** will set the flow rates of all pumps to 0. **IMPORTANT** In order to change the syringe size you need to **Stop** all pumps, then change the syringe size and then press **Run/Update** again. You **CANNOT** simply change the syringe size/units and press **Run/Update**. 
 
 #### Assign Pump Syringe Size
-The software is calibrated to run the user-input flow rates at 4 different Becton Dickinson (BD) syringe sizes: 1 mL, 3 mL, 5 mL, or 10 mL. The default syringe size is 1 mL. To change the the syringe size for any given pump, first press **Stop**. **WARNING**: It is extremeley important to press stop and stop all pumps before changing syringe size; if you change syringe size will the pumps are running, the software will **NOT** recognize the change in syringe size and assume the flow rate is still based on the assigned syringe size when the pumps were first started. After you have pressed **Stop**, you can click the **Syringe** size drop-down menu and select the correct syringe size. The syringe size for any given pump will remain the same until **Stop** is pressed again or the program is closed. 
+The software is calibrated to run the user-input flow rates at 4 different Becton Dickinson (BD) syringe sizes: 1 mL, 3 mL, 5 mL, 10 mL, 20 mL, or 30 mL. The default syringe size is 1 mL. To change the the syringe size for any given pump, first press **Stop**. **WARNING**: It is extremeley important to press stop and stop all pumps before changing syringe size; if you change syringe size will the pumps are running, the software will **NOT** recognize the change in syringe size and assume the flow rate is still based on the assigned syringe size when the pumps were first started. After you have pressed **Stop**, you can click the **Syringe** size drop-down menu and select the correct syringe size. The syringe size for any given pump will remain the same until **Stop** is pressed again or the program is closed. 
 
 #### Assign Pump Content Names
 Assign pump content names by clicking the edit field next pump and entering the name of the pump content (e.g. oil, buffer, etc.). This name will remain the same until re-edited or the program is closed.
@@ -155,11 +155,11 @@ If you have found that these programs work with your pumps and are connected to 
 3. Reopen *Anaconda Prompt* as administrator
 4. Navigate to the current directory of the pump programs (both new_era3.py and pump_control3.py must be in this folder) with the **cd** command. An example looks like this:
   ```sh
-  cd C:\User\YourUserName\Documents\PumpProgram3
+  cd C:\User\YourUserName\Documents\HarvardPumpProgram3
   ```
 5. Execute the following line of code to create an executable Windows application (.exe file) for the pump program
   ```sh
-  pyinstaller pump_control3.py
+  pyinstaller harvard_pump_control3.py
   ```
   
 This will create a bundle in a subfolder named **dist**, which will contain the executable application named pump_control3.exe. This app can then be used to run pumps on any computer without the need of Python or any of the packages. **Please be warned that you will need to use the same COM port that you used in the code when you created the app with pyinstaller.**
