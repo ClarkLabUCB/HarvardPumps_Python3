@@ -11,7 +11,7 @@
    - [Running the Scripts](#running-the-scripts)
    - [Setting up the Pumps](#setting-up-the-pumps)
      - [Setting the COM port Number](#setting-the-com-port-number)
-     - [Setting Individual Pump Numbers](#setting-individual-pump-addresses)
+     - [Setting Individual Pump Addresses](#setting-individual-pump-addresses)
    - [Using the Pump GUI](#using-the-pump-gui)
      - [Assign Pump Syringe Size](#assign-pump-syringe-size)
      - [Assign Pump Content Names](#assign-pump-content-names)
