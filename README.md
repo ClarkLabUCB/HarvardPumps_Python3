@@ -26,7 +26,7 @@
 
 These programs provide a GUI to run Harvard Milliliter OEM Syringe Pumps with 1 mL, 3 mL, 5 mL, 10, 20, or 30 mL Becton Dickinson syringes in Python. The interface includes the ability to set both syringe size and forward/reverse flow, pump labeling, pump priming, and the ability to easily stop or update flow settings.  
 
-This code was originally written in the Abate Lab at UC San Francisco by Phil Romero. It was resurrected by John Halliburton for use with Python 3 and updated into its present form by Kevin Joslin and Sakshi Shah in the Clark lab at UC Berkeley. We hope you find it useful. 
+This code was originally written in the Abate Lab at UC San Francisco by Phil Romero. It was adapted by Iain Clark and Rohan Thakur for use with Harvard eom pumps and modified further for use with Python 3 (using example code from John Halliburton) into its present form by Kevin Joslin and Sakshi Shah in the Clark lab at UC Berkeley. We hope you find it useful. 
 
 ### Built With
 
